@@ -1,0 +1,16 @@
+[14-May-2022 13:00:11 Europe/Madrid] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rahyafag/studium.robertopaez.com/model/db.php on line 8
+[14-May-2022 13:06:41 Europe/Madrid] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/rahyafag/studium.robertopaez.com/model/db.php on line 8
+[14-May-2022 13:07:02 Europe/Madrid] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rahyafag_rahyafag'@'localhost' (using password: YES) in /home/rahyafag/studium.robertopaez.com/model/db.php on line 8
+[14-May-2022 13:09:34 Europe/Madrid] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'rahyafag_rahyafag'@'localhost' (using password: YES) in /home/rahyafag/studium.robertopaez.com/model/db.php on line 8
+[14-May-2022 14:52:51 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rahyafag/studium.robertopaez.com/controller/validate_verification.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/rahyafag/studium.robertopaez.com/controller/validate_verification.php on line 11
+[16-May-2022 11:43:26 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rahyafag/studium.robertopaez.com/controller/validate_verification.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/rahyafag/studium.robertopaez.com/controller/validate_verification.php on line 11
+[17-May-2022 18:10:26 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rahyafag/studium.robertopaez.com/controller/validate_login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/rahyafag/studium.robertopaez.com/controller/validate_login.php on line 8

@@ -1,0 +1,2 @@
+[14-May-2022 13:41:53 Europe/Madrid] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/rahyafag/studium.robertopaez.com/views/verify.php on line 2
+[14-May-2022 14:23:10 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rahyafag/studium.robertopaez.com/partials/header.php:1) in /home/rahyafag/studium.robertopaez.com/views/verify.php on line 36
