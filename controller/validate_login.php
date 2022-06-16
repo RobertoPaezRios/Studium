@@ -27,7 +27,8 @@ if ($row["status"] == 0) {
         if ($result->num_rows > 0) {
             //Send a verification code to the user
             $code = rand(100000, 999999);
-            $sql = "UPDATE users SET vcode = '" . $code . "', vcode_date = '" . date("Y-m-d H:i:s") . "' WHERE email = '" . $email . "'";
+            $expireDate = date("Y-m-d H:i:s", strtotime("+1 minute"));
+            $sql = "UPDATE users SET vcode = '" . $code . "', vcode_date = '" . $expireDate . "' WHERE email = '" . $email . "'";
             if ($conn->query($sql) !== TRUE) {
                 header("Location: ./../views/login.php");
             }
@@ -61,7 +62,8 @@ if ($row["status"] == 0) {
                 header("Location: ./../views/login.php");
             }
         } else {
-            $_SESSION["message"] = "User not found!";
+            $_SESSION["message"] = "User not found, check you are writing the password
+            and the email correctly!";
             $_SESSION["color"] = "danger";
             $_SESSION["login"] = false;
             header("Location: ./../views/login.php");
